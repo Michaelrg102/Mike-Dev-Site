@@ -1,0 +1,104 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    font-family: "Gabarito", sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(87, 87, 87);
+    padding: 20px 50px;
+}
+
+header .logo a {
+    color: white;
+}
+
+header nav ul {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    position: relative;
+    color: white;
+}
+
+/* nav ul li a::after{
+    content: "";
+    top: 100%;
+    left: 0;
+    background-color: white;
+    width: 0;
+    height: 4px;
+    box-shadow: 0 0 20px red;
+    position:absolute;
+    border-radius: 4px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover{
+    width: 100%;
+} */
+
+
+header nav ul a:hover {
+    color: rgb(120, 120, 255);
+}
+
+body {
+    background-color: rgb(32, 32, 32);
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section img {
+    margin: 50px;
+    width: 250px;
+    height: 250px;
+    border-radius: 100%;
+}
+
+section main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid gray;
+    background-color: gray;
+    border-radius: 50px;
+    margin: 30px;
+}
+
+section main h1 {
+    font-size: 85px;
+    padding-top: 100px;
+    color: rgb(28, 173, 240);
+}
+
+section main p {
+    font-size: 30px;
+    text-align: center;
+    margin: 10px;
+    color: white;
+}
+
+footer{
+    font-size: 20px;
+    padding: 30px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
