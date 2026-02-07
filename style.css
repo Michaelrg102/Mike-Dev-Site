@@ -128,10 +128,6 @@ section main h3:hover {
     color: rgb(164, 164, 255);
 }
 
-section main h3 .segundo-titulo{
-    
-}
-
 /* TEXTO */
 section main p {
     font-size: clamp(18px, 2vw, 30px);
