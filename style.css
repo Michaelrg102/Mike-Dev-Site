@@ -51,6 +51,10 @@ header .logo a {
     font-weight: bold;
 }
 
+header .logo samp{
+    color: var(--color-primary);
+}
+
 /* NAV */
 header nav ul {
     display: flex;
@@ -92,9 +96,10 @@ section img {
 }
 
 /* MAIN */
-section main {
+main section {
     width: 100%;
     max-width: 1200px;
+    min-height: 100vh;
 
     /*Centralizar os Textos*/
     display: flex;
@@ -107,33 +112,44 @@ section main {
     border: 5px solid rgb(0, 225, 255);
     border-radius: 30px;
 
-    padding: 60px 40px;
+    padding: 40px 60px;
     margin: 0 auto;
 }
 
 /* TÍTULOS */
-section main h1 {
+main section h1 {
     font-size: clamp(40px, 6vw, 85px);
     color: var(--color-primary);
-    margin-bottom: 30px;
+    margin-bottom: 10px;
+
 }
 
-section main h3 {
+main section h3{
+    font-size: clamp(28px, 4vw, 50px);
+    color: var(--color-text);
+    margin-bottom: 50px;
+}
+
+main section .title-project {
     font-size: clamp(28px, 4vw, 50px);
     color: var(--color-text);
     margin-bottom: 20px;
 }
 
-section main h3:hover {
+main section .title-project:hover {
     color: rgb(164, 164, 255);
 }
 
 /* TEXTO */
-section main p {
+main section p {
     font-size: clamp(18px, 2vw, 30px);
     color: var(--color-text);
     max-width: 900px;
     line-height: 1.6;
+}
+
+.java{
+    margin-top: -10px;
 }
 
 /* FOOTER */
