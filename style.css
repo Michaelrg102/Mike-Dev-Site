@@ -162,3 +162,25 @@ footer {
     color: white;
     background-color: black;
 }
+
+@media screen and (max-width: 768px){
+    main{
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    header{
+        gap: 25px;
+        align-items: center;
+    }
+
+    nav ul li a{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    header .logo a{
+        font-size: 12px;
+        align-items: center;
+    }
+}
